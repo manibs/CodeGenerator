@@ -1,0 +1,21 @@
+swagen 1.0
+Generates Typescript client classes and models for Swagger definitions
+https://github.com/JeevanJames/RestGen
+Copyright (c) 2015 Jeevan James
+
+SWAGEN <swagger url> [-out:<output file name>] [-modelns:<model namespace>]
+       [-servicens:<service namespace>] [-ref:<typescript reference path>]...
+
+    <swagger url> URL of the Swagger service.
+
+    -out       (short: o) Optional. Name of the generated Typescript
+               file. Defaults to swagger.ts
+
+    -modelns   (short: mns) Optional Typescript namespace for the
+               generated model interfaces.
+
+    -servicens (short: sns) Optional Typescript namespace for the
+               generated service interfaces and classes.
+
+    -ref       (short: r) Typescript definition file to be referenced.
+               Can occur multiple times.
